@@ -1,19 +1,14 @@
 WebRTC Example
 ==============
 
-#### shane tully (shanetully.com)
-
-An 'as simple as it gets' WebRTC example.
-
-See [https://shanetully.com/2014/09/a-dead-simple-webrtc-example/](https://shanetully.com/2014/09/a-dead-simple-webrtc-example/) for a detailed walkthrough of the code.
-
-Note: This repo is kept updated. The general ideas are there, but the above blog post may be somewhat out of date with the code in this repo.
 
 ### Usage
 
 The signaling server uses Node.js and `ws` and can be started as such:
 
 ```
+$ you should install licode first   and change the require path  in server/server.js
+
 $ npm install ws
 $ node server/server.js
 ```
